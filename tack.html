@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tack!</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Trading Academy</title>
+    <link rel="stylesheet" href="style.css"> <!-- Placera länken här, inuti <head> -->
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
 </head>
-    <link rel="stylesheet" href="./style.css">
 <body>
     <header>
-        <h1>Tack för att du kontaktade oss!</h1>
+        <h1>Välkommen till Trading Academy!</h1>
     </header>
+
+    <!-- Navigationsmeny -->
+    <nav>
+        <a href="index.html">Hem</a>
+        <a href="tradingtips.html">Tradingtips</a>
+        <a href="kontakt.html">Kontakta oss</a>
+    </nav>
+
     <main>
-        <p>Vi har mottagit ditt meddelande och kommer att återkomma så snart som möjligt.</p>
-        <a href="index.html">Tillbaka till startsidan</a>
+        <p>Lär dig trading på ett enkelt sätt.</p>
+        <button onclick="visaMeddelande()">Klicka här för ett tradingtips!</button>
     </main>
-    <footer>
-        <p>&copy; 2024 Trading Academy - Alla rättigheter förbehållna.</p>
-    </footer>
 </body>
 </html>
